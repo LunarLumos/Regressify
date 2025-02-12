@@ -1,107 +1,78 @@
-# 🚀 Regressify
+🚀 **Regressify**: The Smart Regression Model Selection Tool
 
-
-
-**Regressify** is an intelligent, automated regression model selection tool that analyzes datasets and suggests the best-performing regression algorithm. Designed for **data analysts, ML engineers, and security enthusiasts**, it provides fast, accurate, and efficient model evaluation.
-
----
-
-## ✨ Features
-
-✅ **Smart Format Detection**: Supports `.csv`, `.xlsx`, `.json`, and `.parquet` files.\
-✅ **Flexible Delimiter Parsing**: Automatically detects separators like `,`, `;`, `|`, etc.\
-✅ **Auto Data Cleaning**: Handles missing values efficiently.\
-✅ **Feature Engineering**: Converts categorical variables to numerical values.\
-✅ **Comprehensive Model Testing**: Evaluates multiple regression models.\
-✅ **Performance Insights**: Measures **R² Score, MSE, MAE, and Explained Variance Score**.\
-✅ **Automated Best Model Selection**: Recommends the optimal model based on R² Score.
+Regressify is an intelligent, automated tool designed for data analysts, ML engineers, and security enthusiasts.
+It analyzes datasets and suggests the best-performing regression model for your data, making model selection fast, efficient, and accurate.
 
 ---
 
-## 📦 Installation
+✨ **Features**
 
-Ensure **Python 3.x** is installed, then install dependencies:
+✅ Smart Format Detection
+    - Supports .csv, .xlsx, .json, and .parquet files.
 
-```bash
-pip install -r requirements.txt
-```
+✅ Flexible Delimiter Parsing
+    - Automatically detects separators like ',', ';', '|', etc.
 
----
+✅ Auto Data Cleaning
+    - Handles missing values efficiently.
 
-## 🔥 Quick Start
+✅ Feature Engineering
+    - Converts categorical variables to numerical values.
 
-Run Regressify with a dataset:
+✅ Comprehensive Model Testing
+    - Evaluates multiple regression models for optimal performance.
 
-```bash
-python Regressify.py -d path/to/dataset.csv
-```
+✅ Performance Insights
+    - Measures R² Score, MSE, MAE, and Explained Variance Score.
 
-### Example:
-
-```bash
-python Regressify.py -d housing_prices.csv
-```
-
-This will:
-
-1. Load & preprocess data.
-2. Apply multiple regression models.
-3. Evaluate models using key metrics.
-4. Suggest the best model.
+✅ Automated Best Model Selection
+    - Recommends the best model based on highest R² Score.
 
 ---
 
-## 📊 Supported Models
+📦 **Installation**
 
-Regressify evaluates:
+Ensure Python 3.x is installed, then install dependencies by running:
 
-- **Linear Regression** 🔹 **Ridge** 🔹 **Lasso** 🔹 **ElasticNet**
-- **Bayesian Ridge** 🔹 **SGD** 🔹 **Huber** 🔹 **Passive Aggressive**
-- **Polynomial (Degree 2)** 🔹 **SVR** 🔹 **Decision Tree** 🔹 **Random Forest**
-- **Gradient Boosting** 🔹 **AdaBoost** 🔹 **Extra Trees** 🔹 **HistGradientBoosting**
-- **KNN** 🔹 **Neural Networks (MLP Regressor)**
+    pip install -r requirements.txt
 
 ---
 
-## 📌 Sample Output
+📊 **Supported Models**
 
-```plaintext
-🚀 Best Model: Random Forest Regression
-📈 R² Score: 0.9543
-📉 MSE: 1.23e+04
-📊 MAE: 105.67
-📡 Explained Variance Score: 0.9571
-```
+Regressify evaluates the following regression models:
 
----
-
-## 🛠️ Contribute
-
-1. **Fork** & **clone** the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. Make changes & commit:
-   ```bash
-   git commit -m "Your feature description"
-   ```
-4. Push & create a PR:
-   ```bash
-   git push origin feature-branch
-   ```
+    - Linear Regression     🔹 Ridge           🔹 Lasso           🔹 ElasticNet
+    - Bayesian Ridge        🔹 SGD             🔹 Huber           🔹 Passive Aggressive
+    - Polynomial (Degree 2) 🔹 SVR             🔹 Decision Tree   🔹 Random Forest
+    - Gradient Boosting     🔹 AdaBoost        🔹 Extra Trees     🔹 HistGradientBoosting
+    - KNN                   🔹 Neural Networks (MLP Regressor)
 
 ---
 
-## 📜 License
+📌 **Sample Output**
 
-Licensed under the **MIT License**.
+After running the tool, you’ll receive a comprehensive evaluation:
+
+    🚀 Best Model: Random Forest Regression
+    📈 R² Score: 0.9543
+    📉 MSE: 1.23e+04
+    📊 MAE: 105.67
+    📡 Explained Variance Score: 0.9571
 
 ---
 
-## 💬 Connect & Support
+📜 **License**
 
-Found an issue or have an idea? Open an **Issue** or **Pull Request**!
+This project is licensed under the **MIT License**.
+
+---
+
+💬 **Connect & Support**
+
+If you encounter an issue or have suggestions, feel free to:
+
+    - Open an Issue
+    - Create a Pull Request
 
 🚀 **Happy Hacking, Security Enthusiasts!** 🔥
-
