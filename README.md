@@ -1,7 +1,6 @@
 🚀 **Regressify**: The Smart Regression Model Selection Tool
 
-Regressify is an intelligent, automated tool designed for data analysts, ML engineers, and security enthusiasts.
-It analyzes datasets and suggests the best-performing regression model for your data, making model selection fast, efficient, and accurate.
+**Regressify** is an intelligent, automated tool designed for data analysts, ML engineers, and security enthusiasts. It analyzes datasets and suggests the best-performing regression model for your data, making model selection fast, efficient, and accurate.
 
 ---
 
@@ -30,6 +29,14 @@ It analyzes datasets and suggests the best-performing regression model for your 
 
 ---
 
+🛠️ **Uses**
+
+- **Data Analysts**: Quickly evaluate and compare different regression models for predicting continuous variables in datasets.
+- **Machine Learning Engineers**: Automate the regression model selection process, saving time while working with large datasets.
+- **Security Enthusiasts**: Enhance predictive security models and assess vulnerabilities in data patterns.
+
+---
+
 📦 **Installation**
 
 Ensure Python 3.x is installed, then install dependencies by running:
@@ -47,6 +54,20 @@ Regressify evaluates the following regression models:
     - Polynomial (Degree 2) 🔹 SVR             🔹 Decision Tree   🔹 Random Forest
     - Gradient Boosting     🔹 AdaBoost        🔹 Extra Trees     🔹 HistGradientBoosting
     - KNN                   🔹 Neural Networks (MLP Regressor)
+
+---
+
+📋 **Command-Line Options**
+
+Use the following options when running **Regressify**:
+
+    -h, --help            Show this help message and exit
+    -d DATASET, --dataset DATASET
+                        Path to the dataset file (e.g., .csv, .xlsx, .json, .parquet)
+
+Example usage:
+
+    python Regressify.py -d path/to/dataset.csv
 
 ---
 
