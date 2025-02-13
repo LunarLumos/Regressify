@@ -61,9 +61,6 @@ After running the tool, you’ll receive a comprehensive evaluation:
    ├── Prioritizes highest R² Score for optimal predictions.  
 ```
 
----
-
----
 
 ```
 🛠️ WHO IS THIS FOR?  
