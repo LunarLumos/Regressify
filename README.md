@@ -4,6 +4,30 @@
 Here’s a **more unique and polished** version of your **Features** section, maintaining a **terminal-inspired style** while making it stand out:  
 
 ---
+📊 **Supported Models**
+
+Regressify evaluates the following regression models:
+
+    - Linear Regression     🔹 Ridge           🔹 Lasso           🔹 ElasticNet
+    - Bayesian Ridge        🔹 SGD             🔹 Huber           🔹 Passive Aggressive
+    - Polynomial (Degree 2) 🔹 SVR             🔹 Decision Tree   🔹 Random Forest
+    - Gradient Boosting     🔹 AdaBoost        🔹 Extra Trees     🔹 HistGradientBoosting
+    - KNN                   🔹 Neural Networks (MLP Regressor)
+
+---
+---
+
+📌 **Sample Output**
+
+After running the tool, you’ll receive a comprehensive evaluation:
+
+    🚀 Best Model: Random Forest Regression
+    📈 R² Score: 0.9543
+    📉 MSE: 1.23e+04
+    📊 MAE: 105.67
+    📡 Explained Variance Score: 0.9571
+
+---
 
 ## ⚡ Key Capabilities  
 
@@ -39,13 +63,30 @@ Here’s a **more unique and polished** version of your **Features** section, ma
 
 ---
 
-🛠️ **Uses**
+---
 
-- **Data Analysts**: Quickly evaluate and compare different regression models for predicting continuous variables in datasets.
-- **Machine Learning Engineers**: Automate the regression model selection process, saving time while working with large datasets.
-- **Security Enthusiasts**: Enhance predictive security models and assess vulnerabilities in data patterns.
+```
+🛠️ WHO IS THIS FOR?  
+
+📊 Data Analysts  
+   ├── Compare regression models effortlessly.  
+   ├── Predict trends with data-driven accuracy.  
+
+🤖 ML Engineers  
+   ├── Automate regression model selection.  
+   ├── Optimize workflows for large datasets.  
+
+🔐 Security Enthusiasts  
+   ├── Enhance predictive security models.  
+   ├── Detect vulnerabilities in data patterns.  
+
+🔬 Researchers  
+   ├── Validate hypotheses with automated analysis.  
+   ├── Explore trends and gain deeper insights.  
+```
 
 ---
+
 
 📦 **Installation**
 
@@ -55,17 +96,7 @@ Ensure Python 3.x is installed, then install dependencies by running:
 
 ---
 
-📊 **Supported Models**
 
-Regressify evaluates the following regression models:
-
-    - Linear Regression     🔹 Ridge           🔹 Lasso           🔹 ElasticNet
-    - Bayesian Ridge        🔹 SGD             🔹 Huber           🔹 Passive Aggressive
-    - Polynomial (Degree 2) 🔹 SVR             🔹 Decision Tree   🔹 Random Forest
-    - Gradient Boosting     🔹 AdaBoost        🔹 Extra Trees     🔹 HistGradientBoosting
-    - KNN                   🔹 Neural Networks (MLP Regressor)
-
----
 
 📋 **Command-Line Options**
 
@@ -79,19 +110,7 @@ Example usage:
 
     python Regressify.py -d path/to/dataset.csv
 
----
 
-📌 **Sample Output**
-
-After running the tool, you’ll receive a comprehensive evaluation:
-
-    🚀 Best Model: Random Forest Regression
-    📈 R² Score: 0.9543
-    📉 MSE: 1.23e+04
-    📊 MAE: 105.67
-    📡 Explained Variance Score: 0.9571
-
----
 
 📜 **License**
 
