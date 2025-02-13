@@ -1,31 +1,41 @@
 🚀 **Regressify**: The Smart Regression Model Selection Tool
 
 **Regressify** is an intelligent, automated tool designed for data analysts, ML engineers, and security enthusiasts. It analyzes datasets and suggests the best-performing regression model for your data, making model selection fast, efficient, and accurate.
+Here’s a **more unique and polished** version of your **Features** section, maintaining a **terminal-inspired style** while making it stand out:  
 
 ---
 
-✨ **Features**
+## ⚡ Key Capabilities  
 
-✅ Smart Format Detection
-    - Supports .csv, .xlsx, .json, and .parquet files.
+```bash
+🚀 Intelligent Format Handling  
+   ├── Auto-detects .csv, .xlsx, .json, and .parquet formats.  
+   ├── Reads and processes structured data seamlessly.  
 
-✅ Flexible Delimiter Parsing
-    - Automatically detects separators like ',', ';', '|', etc.
+🔍 Adaptive Delimiter Recognition  
+   ├── Identifies separators: ',', ';', '|', and more.  
+   ├── Ensures accurate parsing for diverse datasets.  
 
-✅ Auto Data Cleaning
-    - Handles missing values efficiently.
+🛠️ Smart Data Refinement  
+   ├── Cleans missing values with precision.  
+   ├── Optimizes data integrity for reliable analysis.  
 
-✅ Feature Engineering
-    - Converts categorical variables to numerical values.
+🔢 Automated Feature Engineering  
+   ├── Converts categorical data into numerical form.  
+   ├── Enhances dataset quality for superior model training.  
 
-✅ Comprehensive Model Testing
-    - Evaluates multiple regression models for optimal performance.
+📊 Multi-Model Benchmarking  
+   ├── Evaluates multiple regression models in parallel.  
+   ├── Finds the most effective predictive approach.  
 
-✅ Performance Insights
-    - Measures R² Score, MSE, MAE, and Explained Variance Score.
+📈 Performance Metrics Breakdown  
+   ├── Computes R² Score, MSE, MAE, and Explained Variance.  
+   ├── Offers deep insights into model accuracy.  
 
-✅ Automated Best Model Selection
-    - Recommends the best model based on highest R² Score.
+🤖 AI-Powered Model Selection  
+   ├── Identifies the best model using data-driven analysis.  
+   ├── Prioritizes highest R² Score for optimal predictions.  
+```
 
 ---
 
