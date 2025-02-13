@@ -1,4 +1,4 @@
-🚀 **Regressify**: The Smart Regression Model Selection Tool
+# **Regressify**: The Smart Regression Model Selection Tool
 
 **Regressify** is an intelligent, automated tool designed for data analysts, ML engineers, and security enthusiasts. It analyzes datasets and suggests the best-performing regression model for your data, making model selection fast, efficient, and accurate.
 Here’s a **more unique and polished** version of your **Features** section, maintaining a **terminal-inspired style** while making it stand out:  
